@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+	@font-face {
+		font-family: Work Sans;
+		font-weight: 100 900;
+		src: url("./assets/fonts/WorkSans-VariableFont_wght.ttf") format('tff');
+	}
+}
+

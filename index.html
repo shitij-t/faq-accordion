@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | FAQ accordion</title>
+  </head>
+  <body class="">
+    <main
+      class="min-h-screen grid place-content-center bg-repeat-x bg-Lightpink bg-mobilepattern sm:bg-desktoppattern"
+    >
+      <article
+        class="max-w-lg min-w-80 rounded-md shadow-lg bg-White m-6 mt-20"
+      >
+        <div class="flex justify-start items-center gap-4 m-3">
+          <img src="assets/images/icon-star.svg" alt="" />
+          <h1 class="text-5xl font-bold text-Darkpurple">FAQs</h1>
+        </div>
+        <div class="flex gap-4 flex-col my-6">
+          <details class="group px-6 py-2 border-b border-Lightpink">
+            <summary
+              class="cursor-pointer list-none flex justify-between items-center"
+            >
+              <span class="font-semibold text-Darkpurple text-lg"
+                >What is Frontend Mentor, and how will it help me?</span
+              >
+              <img
+                class="group-open:hidden"
+                src="assets/images/icon-plus.svg"
+                alt=""
+              />
+              <img
+                class="hidden group-open:block"
+                src="assets/images/icon-minus.svg"
+                alt=""
+              />
+            </summary>
+            <p class="text-Grayishpurple font-medium">
+              Frontend Mentor offers realistic coding challenges to help
+              developers improve their frontend coding skills with projects in
+              HTML, CSS, and JavaScript. It's suitable for all levels and ideal
+              for portfolio building.
+            </p>
+          </details>
+          <details class="group px-6 py-2 border-b border-Lightpink">
+            <summary
+              class="cursor-pointer list-none flex justify-between items-center"
+            >
+              <span class="font-semibold text-Darkpurple text-lg"
+                >Is Frontend Mentor free?</span
+              >
+              <img
+                class="group-open:hidden"
+                src="assets/images/icon-plus.svg"
+                alt=""
+              />
+              <img
+                class="hidden group-open:block"
+                src="assets/images/icon-minus.svg"
+                alt=""
+              />
+            </summary>
+            <p class="text-Grayishpurple font-medium">
+              Yes, Frontend Mentor offers both free and premium coding
+              challenges, with the free option providing access to a range of
+              projects suitable for all skill levels.
+            </p>
+          </details>
+          <details class="group px-6 py-2 border-b border-Lightpink">
+            <summary
+              class="cursor-pointer list-none flex justify-between items-center"
+            >
+              <span class="font-semibold text-Darkpurple text-lg"
+                >Can I use Frontend Mentor projects in my portfolio?</span
+              >
+              <img
+                class="group-open:hidden"
+                src="assets/images/icon-plus.svg"
+                alt=""
+              />
+              <img
+                class="hidden group-open:block"
+                src="assets/images/icon-minus.svg"
+                alt=""
+              />
+            </summary>
+            <p class="text-Grayishpurple font-medium">
+              Yes, you can use projects completed on Frontend Mentor in your
+              portfolio. It's an excellent way to showcase your skills to
+              potential employers!
+            </p>
+          </details>
+          <details class="group px-6 py-2">
+            <summary
+              class="cursor-pointer list-none flex justify-between items-center"
+            >
+              <span class="font-semibold text-Darkpurple text-lg">
+                How can I get help if I'm stuck on a Frontend Mentor challenge?
+              </span>
+              <img
+                class="group-open:hidden"
+                src="assets/images/icon-plus.svg"
+                alt=""
+              />
+              <img
+                class="hidden group-open:block"
+                src="assets/images/icon-minus.svg"
+                alt=""
+              />
+            </summary>
+            <p class="text-Grayishpurple font-medium">
+              The best place to get help is inside Frontend Mentor's Discord
+              community. There's a help channel where you can ask questions and
+              seek support from other community members.
+            </p>
+          </details>
+        </div>
+      </article>
+    </main>
+  </body>
+  <script></script>
+</html>
